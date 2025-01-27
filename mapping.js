@@ -74,7 +74,7 @@ class MappingCommand {
   regcmd(msg, wa) {
     if(typeof (msg.cmd && msg.perfix) != "string") return;
     if(this.register[msg.cmd]) {
-      console.log("[Trigger]:", msg.cmd)
+      console.log("[ Trigger Route ]:", this.register[msg.cmd])
       this.register[msg.cmd](msg, wa)
     }
   }
