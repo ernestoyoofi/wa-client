@@ -7,7 +7,7 @@ Simple use of whatsapp client without configuration complexity and just use
 Use this command or cloneing this repository [[https://github.com/ernestoyoofi/wa-client.git](https://github.com/ernestoyoofi/wa-client.git)]
 
 ```bash
-npm i https://github.com/ernestoyoofi/wa-client.git@wa-client
+npm i wa-client@https://github.com/ernestoyoofi/wa-client.git
 ```
 
 ## Used?
