@@ -12,6 +12,26 @@ npm i wa-client@https://github.com/ernestoyoofi/wa-client.git
 
 ## Used?
 
+Create Socket Realtime
+
+```js
+const WhatsApp = require("wa-client")
+const wa = new WhatsApp({
+  pinolevel: "silent", // Pino Debugging Baileys Library
+  authfolder: `${process.cwd()}/auth`, // Auth Message
+  storefolder: `${process.cwd()}/store`, // Store Data Message (Now, it not used to reduce heavy performance)
+  version: [2,3000,1019105392], // Version WhatsApp
+  debugging: 0,  // Log Debugging
+  viewOnLog: true, // Log Debugging 
+  perfix: ["!"] // Perfix Code Extracted
+  phone: "6281********", // Phone Number For Login
+  qrcode: true, // Qrcode Login Type (If Set False, Try Using Phone Number
+  other: {
+    // Other Configuration For Balieys MakeWaSocket
+  }
+})
+```
+
 Connect WhatsApp
 
 ```js
