@@ -23,8 +23,8 @@ const wa = new WhatsApp({
   version: [2,3000,1019105392], // Version WhatsApp
   debugging: 0,  // Log Debugging
   viewOnLog: true, // Log Debugging 
-  perfix: ["!"] // Perfix Code Extracted
-  phone: "6281********", // Phone Number For Login
+  perfix: ["!"], // Perfix Code Extracted
+  phone: "************", // Phone Number For Login
   qrcode: true, // Qrcode Login Type (If Set False, Try Using Phone Number
   other: {
     // Other Configuration For Balieys MakeWaSocket
